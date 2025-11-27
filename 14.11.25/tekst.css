@@ -1,0 +1,27 @@
+body{
+    font-family:'Times New Roman', Times, serif
+}
+h1{
+    font-size: 24px;
+}
+p{
+    font-family:"Raleway", sans-serif;
+    font-size:120%;
+}
+div.box{
+    font-family:"Momo Signature", sans-serif;
+    width:300px;
+    height:200px;
+    background-image: linear-gradient(to left, rgb(255, 255, 172), rgb(155, 155, 65));
+    border-style:dotted;
+    border-width:8px 6px 4px 6px;
+    border-top-color:gold;
+    border-left-color:goldenrod;
+    border-right-color:goldenrod;
+    border-bottom-color:darkgoldenrod;
+    line-height:200px;
+    text-align:center;
+    margin:auto;
+    border-radius:20%;
+    text-shadow:skyblue;
+}

@@ -1,0 +1,9 @@
+h1{
+    color:blue;
+}
+h1 > q{
+    color:tomato
+}
+h1 > p{
+    color:violet
+}

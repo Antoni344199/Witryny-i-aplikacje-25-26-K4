@@ -1,0 +1,29 @@
+.tytul{
+    background-color:hsl(180, 100%, 27.3%);
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:15px;
+    margin-top: 40px;
+    padding-left: 20px;
+    font-weight:normal;
+    margin-left:20px;
+}
+.podtytul{
+    background-color:#EE3E80;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:15px;
+    padding-left: 20px;
+    font-weight:normal;
+    margin-left:20px;
+}
+body{
+    background-color:rgb(200,200,200);
+}
+.tekst{
+    background-color:white;
+    padding:15px;
+    padding-left: 20px;
+    color:rgb(100, 100, 100);
+    margin-left:20px;
+}

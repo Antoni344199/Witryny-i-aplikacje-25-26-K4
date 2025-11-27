@@ -1,0 +1,42 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#f8f8f8;
+    text-align:center;
+    padding:30px
+}
+h1{
+    color:#333;
+}
+.box{
+    background-color:lightblue;
+    width:200px;
+    height:100px;
+    border-radius:10%;
+    border: 5px, solid, navy;
+    margin:30px auto;
+    line-height:100px;
+    color:navy;
+    font-weight:bold;
+}
+.percent-box{
+    background-color:lightcoral;
+    width:50%; /* 50% szerokości strony */
+    height:100px;
+    padding:10px;
+    border: 3px solid darkred;
+    margin: 20px auto;
+    line-height:100px;
+    color:darkred;
+    font-weight:bold;
+}
+.viewport-box{
+    background-color:lightgreen;
+    width:50vw; /* 50% szeokości okna */
+    height:20vh; /* 20% szeokości okna */
+    font-weight:bold;
+    border:3px solid darkgreen;
+    color:darkgreen;
+    line-height:100px;
+    padding:10px;
+    margin:20px auto;
+}

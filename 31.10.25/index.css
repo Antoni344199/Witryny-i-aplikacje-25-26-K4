@@ -1,0 +1,16 @@
+body{
+    background-color:black;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+}
+p.first{
+    color:red;
+}
+
+p.second{
+    font-weight:bold;
+    color:hsl(125, 45%, 47%);
+}
+.three{
+    font-size: larger;
+}
