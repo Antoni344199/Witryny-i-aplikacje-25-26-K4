@@ -1,0 +1,109 @@
+div{
+    width:80%;
+    margin:40px auto;
+    border:1px solid lightgray;
+    box-shadow: 10px 10px 10px darkgray; /* przesuniecie w lewo, przesuniecie w dol, rozmycie, kolor */
+}
+body{
+    font-family:'Times New Roman', Times, serif
+}
+h1{
+    font-size: 24px;
+}
+p{
+    font-family:"Raleway", sans-serif;
+    font-size:120%;
+}
+div.box{
+    font-family:"Momo Signature", sans-serif;
+    width:300px;
+    height:200px;
+    background-image: linear-gradient(to left, rgb(255, 255, 172), rgb(155, 155, 65));
+    border-style:dotted;
+    border-width:8px 6px 4px 6px;
+    border-top-color:gold;
+    border-left-color:goldenrod;
+    border-right-color:goldenrod;
+    border-bottom-color:darkgoldenrod;
+    line-height:200px;
+    text-align:center;
+    margin:auto;
+    border-radius:20%;
+    text-shadow:skyblue;
+}
+#lower{
+    text-transform:lowercase;
+}
+#upper{
+    text-transform:uppercase;
+}
+#capitalize{
+    text-transform:capitalize;
+}
+#under{
+    text-decoration:underline;
+}
+#over{
+    text-decoration:overline;
+}
+#through{
+    text-decoration:line-through;
+}
+#wavygreen{
+    text-decoration-color:green;
+    text-decoration-style: wavy;
+    text-decoration-line:underline;
+    text-decoration-thickness:5px;
+}
+#purple-double{
+    text-decoration: underline double purple 3px;
+}
+#pink-dashed{
+    text-decoration: dashed pink underline overline;
+}
+#navy-dotted{
+    text-decoration: navy dotted line-through;
+}
+a{
+    text-decoration: none;
+    color:red;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform:uppercase;
+}
+#space{
+    line-height: 50px;
+}
+#jahidden{
+    text-decoration: none;
+    color:black
+}
+#indent{
+    text-indent:70px;
+}
+#letter{
+    letter-spacing:7px;
+}
+#words{
+    word-spacing:10px;
+}
+#yellowshadow{
+    text-shadow:10px 10px 10px yellow;
+}
+#green-shadow{
+    text-shadow:5px -10px green;
+}
+#blue-shadow{
+    text-shadow: -10px 10px 3px blue;
+}
+#grey-shadow{
+    text-shadow: 0px 5px 5px grey;
+}
+#purple-shadow{
+    text-shadow: 0px 0px 5px purple;
+}
+#koniec{
+    font-family:"Momo Signature", sans-serif;
+    color:lightblue;
+    font-size:larger
+}
