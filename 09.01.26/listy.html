@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listy</title>
+    <link rel="stylesheet" href="./style/listy.css">
+</head>
+<body>
+    
+    <div id="zero">
+        <p class="logo "> style </p>
+
+        <p class="logo fat"> znaczników </p>
+
+        <p class="logo thin"> listy </p>
+
+    </div>
+
+    <div id="border">
+
+        <p> Właściwość <span>list-style-type</span> pozwala kontrolować kształt i styl znaczników którymi oznaczone są elementy listy.<br> Tej właściwości mozna używać w regułach stylów odnoszącuch się do elementów <span>ol, ul</span> i <span>li</span> </p>
+
+    </div>
+
+    <div class="b-sh">
+
+        <h2> Listy wypunktowane </h2>
+
+        <ul>
+
+        <li id="none"> brak punktora: <span>none</span></li>
+        <li id="circle"> punktor: <span>circle</span> </li>
+        <li id="disk"> punktor: <span>disk </span> </li>
+        <li id="square"> punktor: <span>square</span> </li>
+
+        </ul>
+
+    </div>
+
+    <div class="b-sh">
+
+        <h2> Listy numerowane </h2>
+
+        <ol>
+
+            <li id="decimal"> Dziesiętne: <span>decimal</span> </li>
+            <li id="l-zero"> Z wiodącym zerem: <span>decimal-leading-zero</span> </li>
+            <li id="lower-r"> Małe rzymskie: <span>lower-roman</span> </li>
+            <li id="upper-r"> Duże rzymskie: <span>upper-roman</span> </li>
+            <li id="lower-a"> małe litery: <span>lower alpha</span> </li>
+            <li id="upper-a"> duże litery: <span>upper alpha</span> </li>
+
+        </ol>
+
+    </div>
+
+    <div class="b-sh radius">
+
+        <h2> Punktowania obrazkami za pomocą właściwości <span>list-style-image</span> </h2>
+
+        <h3>Samochody</h3>
+        <ul id="auto">
+
+            <li> osobowe </li>
+            <li> dostawcze </li>
+            <li> cieżarowe </li>
+
+        </ul>
+
+        <h3>Film</h3>
+        <ul id="movie">
+
+            <li> obyczajowe </li>
+            <li> dokumenty </li>
+
+        </ul>
+
+    </div>
+
+    <div class="b-sh teardrop-l">
+
+        <h2> Umiejscowienie znaczników </h2>
+        <h3> <span>list-style-position </span><br>OUTSIDE </h3>
+
+        <ul id="outside">
+
+            <li> W prezentowanym przykładzie tekst jest wyrównany do lewej strony z jednakową wartością wcięcia w każdej linii punktu </li>
+            <li> Pamietaj, by obraz punktora był niewielki, to ważne dla ładnego wyglądu strony oraz prędkości jej ładowania </li>
+            <li> Ważna jest również prawidłowa ścieżka dostępu do obrazu; jeśli jest on w innym katalogu nalezy zastosować zapis <span>../</span> </li>
+
+        </ul>
+
+    </div>
+
+    <div class="b-sh teardrop-r">
+
+        <h2> Umiejscowienie znaczników </h2>
+        <h3> <span>list-style-position</span> <br> INSIDE </h3>
+
+        <ol id="inside">
+
+            <li>W prezentowanym przykładzie tekst nie ma jednakowego wcięcia w każdej linii punktu </li>
+            <li> Pamietaj, by obraz punktora był niewielki, to ważne dla ładnego wyglądu strony oraz prędkości jej ładowania </li>
+            <li> Ważna jest również prawidłowa ścieżka dostępu do obrazu; jeśli jest on w innym katalogu nalezy zastosować zapis <span>../</span> </li>
+
+        </ol>
+
+    </div>
+
+    <div class="summary">
+
+        <h2> Zapis <br>skrótowy</h2>
+        
+        <ul id="all">
+
+            <li> Wcięcie w liniach punktow <span>INSIDE</span> </li>
+            <li> Ustawienie punktora; <span>CIRCLE</span></li>
+
+        </ul>
+
+    </div>
+
+</body>
+</html>
